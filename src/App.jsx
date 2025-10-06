@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import AuthScreen from './components/AuthScreen';
-import MapComponent from './components/MapComponent';
-import ControlPanel from './components/ControlPanel';
-import ErrorModal from './components/ErrorModal'; // <--- NEW IMPORT
-import { getAccessToken, fetchWithRetry, OPENSKY_DATA_URL } from './utils/api';
-import { parseOpenSkyData, POLL_INTERVAL } from './utils/canvas';
+import AuthScreen from './components/AuthScreen.jsx';
+import MapComponent from './components/MapComponent.jsx';
+import ControlPanel from './components/ControlPanel.jsx';
+import ErrorModal from './components/ErrorModal.jsx'; // <--- FIXED IMPORT PATH
+import { getAccessToken, fetchWithRetry, OPENSKY_DATA_URL } from './utils/api.js';
+import { parseOpenSkyData, POLL_INTERVAL } from './utils/canvas.js';
 
 
 const App = () => {

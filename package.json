@@ -1,0 +1,27 @@
+{
+  "name": "Airplane-Heatmap",
+  "version": "1.0.0",
+  "description": "Real-Time Flight Tracking App using OpenSky API and React/Vite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "opensky",
+    "Airplane-Heatmap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.3"
+  }
+}
